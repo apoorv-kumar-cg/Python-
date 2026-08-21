@@ -1,1 +1,17 @@
-# Python-kjsdxfchndswjuifnvowdsikfchjoi
+Question=1
+ python is a programing language in which us human can give instruction to computer and computercan understand
+ question=2
+ Python reads a lot like plain English therefor allowing new programmers to focus on learning computational logic rather than memorizing confusing syntax.
+ question=3
+ web development,AI,machine learning,automation,data science
+ Question=4
+ A Python interpreter is a software program that reads, translates, and executes Python code on the fly
+ question=5
+  the human-readable set of instructions written by a programmer using Python's syntax rules
+  question=6
+  .py
+  question=7
+  it is type before any source code. 
+  question=8
+  it help us to identify the meaning of source code
+  question=9
