@@ -20,3 +20,6 @@ print(type(height_floate))
 print(type(name_str))
 print(type(Age_bool))
 print(type(city_nonetype))
+
+
+                                   
