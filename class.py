@@ -55,9 +55,13 @@ print(2%2)
 print(""" we is in
          gujarat """)
 
-p="comminication"
+p=" comminication "
 print(p[12])
 print(p[-5])
 print(p[:])
 print(p[3:10])
+print(p[2:12:3])
+print(p[::3])
+print(p[::-3])
+print(len(p))  
 
