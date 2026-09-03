@@ -63,7 +63,7 @@ print(p[3:10])
 print(p[2:12:3])
 print(p[::3])
 print(p[::-3])
-print(len(p))  
+print(len(p))
 
 
 
@@ -151,4 +151,4 @@ print(4==6)
 print(4!=7)
 print(4>=1)
 print("AB"<"BA")
-print()
+print(not"" and 1 or "true")
