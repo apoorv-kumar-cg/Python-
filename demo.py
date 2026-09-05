@@ -1,3 +1,1 @@
-a="jet"
-b=18
-print(a+str(b))
+age=input("enter your age:=")
