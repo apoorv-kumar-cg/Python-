@@ -2,7 +2,7 @@ day = int(input("Day="))
 month = int(input("Month="))
 year = int(input("Year="))
 
-if year >= 1 and 1 <=month <= 31:
+if year >= 1 and 1 <=month <= 12:
     leap=(year%4==0 and year%100!=0) or (year%400==0)
 
     if month in (1,3,5,7,8,10,12):
@@ -15,7 +15,7 @@ if year >= 1 and 1 <=month <= 31:
         maxday = 28
 
     if 1<= day <= maxday:
-        print("valid")
+        print(f"{day}/{month}/{year}")
     else:
         print("Invalid")
 else:

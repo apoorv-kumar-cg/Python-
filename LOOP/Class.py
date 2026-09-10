@@ -1,5 +1,12 @@
-# Loop from 1 to 100000000000000000000000
-# Note: Press Ctrl + C in the terminal to stop execution
-for i in range(1, 100000000000000000000000):
-    print(i)
+# for i in range(12, 0, -1):
+#     print(i)
 
+str=input("enter a word=").strip().lower()
+str2=""
+length=len(str)
+for a in range(length-1,-1,-1):
+    str2=str2+str[a]
+if str==str2:
+    print("OK")
+else:
+    print("NOT OK")
