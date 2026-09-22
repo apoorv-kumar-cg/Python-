@@ -10,3 +10,6 @@ for i in sen:
         print("Medium")
     else:
         print("Long")
+
+
+

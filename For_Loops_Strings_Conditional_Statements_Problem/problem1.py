@@ -7,11 +7,11 @@ space = 0
 special = 0
 
 for char in s:
-    if char.isupper():
+    if "A"<=char<="Z":
         upper += 1
-    elif char.islower():
+    elif "a"<=char<="z":
         lower += 1
-    elif char.isdigit():
+    elif "1"<=char<="9":
         digit += 1
     elif char == " ":
         space += 1

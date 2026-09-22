@@ -8,13 +8,13 @@ a=len(pas)
 score=0
 
 for i in pas:
-    if a==8:
+    if a>=8:
         score+=1
-    elif i.isupper():
+    elif "A"<=i<="Z":
         score+=1
-    elif i.islower():
+    elif "a"<=i<="z":
         score+=1
-    elif i.isdigit():
+    elif"1"<=i<="9":
         score+=1
     else:
         score+=1
@@ -28,4 +28,4 @@ else:
     print("PASSWORD is weak")
 
 
-
+# Apoorv1234@
