@@ -98,37 +98,38 @@
 
 
 
-total=0
-mem=input("Are you a member(Yes/no)=").lower().strip
-discount=""
-final_price=""
+# total=0
+# mem=input("Are you a member(Yes/no)=").lower().strip
+# discount=""
+# final_price=""
 
 
-for i in range(5):
-    price=int(input("Enter price="))
-    total=total+price
-    print(total)
+# for i in range(5):
+#     price=int(input("Enter price="))
+#     total=total+price
+#     print(total)
 
-if mem=="yes":
-    if total>=5000:
-        discount="25%"
-        final_price=(total-(total/0.25))
-    elif total>=2000:
-        discount="15%"
-        final_price=(total-(total/0.15))
-    elif total>=1000:
-        discount="10%"
-        final_price=(total-(total/0.1))
-elif mem=="no":
-    if total>=5000:
-        discount="20%"
-        final_price=(total-(total/0.20))
-    elif total>=2000:
-        discount="10%"
-        final_price=(total-(total/0.10))
-    elif total>=1000:
-        discount="5%"
-        final_price=(total-(total/0.05))
+# if mem=="yes":
+#     if total>=5000:
+#         discount="25%"
+#         final_price=(total-(total/0.25))
+#     elif total>=2000:
+#         discount="15%"
+#         final_price=(total-(total/0.15))
+#     elif total>=1000:
+#         discount="10%"
+#         final_price=(total-(total/0.1))
+# elif mem=="no":
+#     if total>=5000:
+#         discount="20%"
+#         final_price=(total-(total/0.20))
+#     elif total>=2000:
+#         discount="10%"
+#         final_price=(total-(total/0.10))
+#     elif total>=1000:
+#         discount="5%"
+#         final_price=(total-(total/0.05))
 
-print(discount)
-print(final_price)
+# print(discount)
+# print(final_price)
+
