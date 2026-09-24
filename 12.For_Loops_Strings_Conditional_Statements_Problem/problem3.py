@@ -17,9 +17,6 @@ for i in a:
         score+=2
     elif "b"<= i >="d" or "f"<= i >="h" or "j"<= i >="n" or "p"<= i >="t" or "u"<= i >="z":
         consonant+=1 
-    elif i == :
-        Digit+=3
-        score+=1 
     elif i.isdigit() :
         score+=3
     else:
