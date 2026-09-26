@@ -1,13 +1,13 @@
-# i=1
+i=1
 
-# while i <= 10:
-#     print(2*i)
-#     i+=1
+while i <= 10:
+    print(2*i)
+    i+=1
 
-# j=10
-# while j<=100:
-#     print(j)
-#     j*=2
+j=10
+while j<=100:
+    print(j)
+    j*=2
 
 number = int(input("Enter a number: "))
 
