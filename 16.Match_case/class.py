@@ -58,6 +58,16 @@
 # [-------------------------------------------------------------------------------]
         
 
+n=int(input("Enter:="))
+for i in range(2,n+1):
+    print(i)
+    if n%i!=0:
+      print("Prime")
 
+
+if n==2:
+   print("prime number")
+if n==1:
+   print("NON PRIME NON COMPOSIT")
 
 
