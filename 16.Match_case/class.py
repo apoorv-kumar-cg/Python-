@@ -100,54 +100,54 @@
 
 # [-------------------------------------------------------------------------------]
 
-# choice=int(input("""ENTER your choice:
-#                         1 for call:-
-#                         2 for talk:-
-#                         3 for speak:-
-#                         4 for end:- """))
+choice=int(input("""ENTER your choice:
+                        1 for call:-
+                        2 for talk:-
+                        3 for speak:-
+                        4 for end:- """))
 
-# match choice:
-#       case 1:
-#          Enter=int(input("""Enter your choice:
-#                               1 for call company Alpha:-
-#                               2 for call company Bita:-
-#                               3 for call company Gamma:-"""))
-#          match Enter:
-#             case 1:
-#                print("Calling Alpha")
-#             case 2:
-#                print("calling bita")
-#             case 3:
-#                print("calling Gamma")
-#       case 2:
-#          Enter=int(input("""Enter your choice:
-#                               1 for talk company Alpha:-
-#                               2 for talk company Bita:-
-#                               3 for talk company Gamma:-"""))
-#          match Enter:
-#             case 1:
-#                print("talk Alpha")
-#             case 2:
-#                print("talk bita")
-#             case 3:
-#                print("talk Gamma")
-#       case 3 :
-#          Enter=int(input("""Enter your choice:
-#                               1 for speak company Alpha:-
-#                               2 for speak company Bita:-
-#                               3 for speak company Gamma:-"""))
-#          match Enter:
-#             case 1:
-#                print("Alpha speaking")
-#             case 2:
-#                print("bita speaking")
-#             case 3:
-#                print("Gamma speaking")
+match choice:
+      case 1:
+         Enter=int(input("""Enter your choice:
+                              1 for call company Alpha:-
+                              2 for call company Bita:-
+                              3 for call company Gamma:-"""))
+         match Enter:
+            case 1:
+               print("Calling Alpha")
+            case 2:
+               print("calling bita")
+            case 3:
+               print("calling Gamma")
+      case 2:
+         Enter=int(input("""Enter your choice:
+                              1 for talk company Alpha:-
+                              2 for talk company Bita:-
+                              3 for talk company Gamma:-"""))
+         match Enter:
+            case 1:
+               print("talk Alpha")
+            case 2:
+               print("talk bita")
+            case 3:
+               print("talk Gamma")
+      case 3 :
+         Enter=int(input("""Enter your choice:
+                              1 for speak company Alpha:-
+                              2 for speak company Bita:-
+                              3 for speak company Gamma:-"""))
+         match Enter:
+            case 1:
+               print("Alpha speaking")
+            case 2:
+               print("bita speaking")
+            case 3:
+               print("Gamma speaking")
 
-#       case 4:
-#           print("CAll end")
-#       case _:
-#         print("Invalid input")
+      case 4:
+          print("CAll end")
+      case _:
+        print("Invalid input")
 
 # [-------------------------------------------------------------------------------]
 
