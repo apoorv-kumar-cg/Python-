@@ -1,14 +1,21 @@
 # Question 24
 
-n=int(input("Enter number:-"))
+n = int(input("Enter number: "))
 
-if n<0:
-    n=-n
-if n==0:
-    count=1
+is_negative = n < 0
+if n < 0:
+    n = -n
+
+if n == 0:
+    total = "0"
 else:
-    count=0
-    while n>0:
-        count+=1
-        n=n//10
-        print(n)
+    total = ""
+    while n > 0:
+        digit = n % 10
+        total += str(digit)
+        n //= 10
+
+if is_negative:
+    total = "-" + total
+
+print(total)
