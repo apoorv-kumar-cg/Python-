@@ -191,10 +191,10 @@
 
 # Q-21
 # def analyze_number(number):
-#     abs_val = -number if number < 0 else number
+#     val = -number if number < 0 else number
 #     is_even = number % 2 == 0
 #     digit_count = len(str(abs_val))
-#     return abs_val, is_even, digit_count
+#     return val, is_even, digit_count
 
 # print(analyze_number(-1234))
 # print(analyze_number(560))
