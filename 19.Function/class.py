@@ -70,15 +70,68 @@
 
 #[------------------------------------------------------------]
 
-def double(number):
-    return number * 2
+# [PASS AS AN ARGUMENT TO ANOTHER FUNCTION]
 
-def add_five(number):
-    return number + 5
 
-result = add_five(double(10))
-print(result)
+# def double(number):
+#     return number * 2
+
+# def add_five(number):
+#     return number + 5
+
+# result = add_five(double(10))
+# print(result)
 
 #[------------------------------------------------------------]
 
- 
+# DEEFAULT ARGUMENTS
+# Guest is default arguments
+
+# def greet (name="Guest"):
+#     print("Hello",name)
+
+# greet()
+# greet("Apoorv")
+
+#[------------------------------------------------------------]
+
+# def find_factorial(n): 
+#     if n < 0:
+#         return "Factorial does not exist for negative numbers"
+    
+#     # The factorial of 0 and 1 is always 1
+#     if n == 0 or n == 1:
+#         return 1
+        
+#     result = 1
+#     for i in range(1, n + 1):
+#         result *= i  
+#     return result
+
+# # Call the function
+# num = 1111
+# print(f"The factorial of {num} is: {find_factorial(num)}")
+
+#[------------------------------------------------------------]
+
+# def des(name,age,city):
+#     print(name,age,city)
+
+# # des(name="Apoorv",21,city="gaya")
+k
+# des(name="Apoorv",age=21,city="gaya")
+
+#[------------------------------------------------------------]
+
+# def hi(count):
+#     count+=1
+#     if count==5:
+#         return count
+#     else:
+#         return hi(count)
+
+
+# print(hi(1)) 
+
+# [------------------------------------------------------------]
+
