@@ -190,10 +190,11 @@
 
 
 # Q-21
+
 # def analyze_number(number):
 #     val = -number if number < 0 else number
 #     is_even = number % 2 == 0
-#     digit_count = len(str(abs_val))
+#     digit_count = len(str(val))
 #     return val, is_even, digit_count
 
 # print(analyze_number(-1234))
@@ -227,7 +228,7 @@
 # print(apply_discount(1000))
 # print(apply_discount(1000, 10))
 
-# # [------------------------------------------------------------------]
+# [------------------------------------------------------------------]
 
 # # Q-25
 # def calculate_pay(hours, rate=200, bonus=0):
@@ -238,7 +239,7 @@
 # print(calculate_pay(40, bonus=500))
 # print(calculate_pay(hours=40, rate=300, bonus=1000))
 
-# # [------------------------------------------------------------------]
+# [------------------------------------------------------------------]
 
 # # Q-26
 # def get_coordinates(x=0, y=0):
@@ -248,9 +249,10 @@
 # print(get_coordinates(x=5))
 # print(get_coordinates(y=10))
 
-# # [------------------------------------------------------------------]
+# [------------------------------------------------------------------]
 
-# # Q-27
+# Q-27
+
 # def compare(a, b):
 #     if a > b:
 #         status = "A is greater"
@@ -267,132 +269,21 @@
 # print(compare(5, 20))
 # print(compare(7, 7))
 
-# # [------------------------------------------------------------------]
+# [------------------------------------------------------------------]
 
-# # Q-28
-# def convert_temperature(value, scale="C"):
-#     if scale == "C":
-#         return (value * 9 / 5) + 32
-#     elif scale == "F":
-#         return (value - 32) * 5 / 9
+# Q-28
 
-# print(convert_temperature(0, "C"))
-# print(convert_temperature(212, "F"))
-# print(convert_temperature(100))
+def convert_temperature(value, scale="C"):
+    if scale == "C":
+        return (value * 9 / 5) + 32
+    elif scale == "F":
+        return (value - 32) * 5 / 9
 
-# # [------------------------------------------------------------------]
+print(convert_temperature(0, "C"))
+print(convert_temperature(212, "F"))
+print(convert_temperature(100))
 
-# # Q-29
-# def calculate_result(marks, passing_marks=35):
-#     return "Pass" if marks >= passing_marks else "Fail"
-
-# print(calculate_result(45))
-# print(calculate_result(30))
-# print(calculate_result(45, passing_marks=50))
-
-# # [------------------------------------------------------------------]
-
-# # Q-30
-# def order_summary(item, quantity=1, price=100, delivery_fee=40):
-#     return (quantity * price) + delivery_fee
-
-# print(order_summary("Book", delivery_fee=60))
-# print(order_summary("Pen"))
-
-# # [------------------------------------------------------------------]
-
-# # Q-21
-# def analyze_number(number):
-#     abs_val = -number if number < 0 else number
-#     is_even = number % 2 == 0
-#     digit_count = len(str(abs_val))
-#     return abs_val, is_even, digit_count
-
-# print(analyze_number(-1234))
-# print(analyze_number(560))
-
-# # [------------------------------------------------------------------]
-
-# # Q-22
-# def calculate_stats(a, b, c):
-#     smallest = min(a, b, c)
-#     largest = max(a, b, c)
-#     total = a + b + c
-#     return smallest, largest, total
-
-# print(calculate_stats(10, 5, 20))
-
-# # [------------------------------------------------------------------]
-
-# # Q-23
-# def make_sentence(subject, verb, object):
-#     return f"{subject} {verb} {object}."
-
-# print(make_sentence(object="Python", subject="Students", verb="learn"))
-
-# # [------------------------------------------------------------------]
-
-# # Q-24
-# def apply_discount(price, discount=0):
-#     return price - (price * discount / 100)
-
-# print(apply_discount(1000))
-# print(apply_discount(1000, 10))
-
-# # [------------------------------------------------------------------]
-
-# # Q-25
-# def calculate_pay(hours, rate=200, bonus=0):
-#     return hours * rate + bonus
-
-# print(calculate_pay(40))
-# print(calculate_pay(40, 250))
-# print(calculate_pay(40, bonus=500))
-# print(calculate_pay(hours=40, rate=300, bonus=1000))
-
-# # [------------------------------------------------------------------]
-
-# # Q-26
-# def get_coordinates(x=0, y=0):
-#     return x, y
-
-# print(get_coordinates())
-# print(get_coordinates(x=5))
-# print(get_coordinates(y=10))
-
-# # [------------------------------------------------------------------]
-
-# # Q-27
-# def compare(a, b):
-#     if a > b:
-#         status = "A is greater"
-#         diff = a - b
-#     elif b > a:
-#         status = "B is greater"
-#         diff = b - a
-#     else:
-#         status = "Equal"
-#         diff = 0
-#     return status, diff
-
-# print(compare(15, 10))
-# print(compare(5, 20))
-# print(compare(7, 7))
-
-# # [------------------------------------------------------------------]
-
-# # Q-28
-# def convert_temperature(value, scale="C"):
-#     if scale == "C":
-#         return (value * 9 / 5) + 32
-#     elif scale == "F":
-#         return (value - 32) * 5 / 9
-
-# print(convert_temperature(0, "C"))
-# print(convert_temperature(212, "F"))
-# print(convert_temperature(100))
-
-# # [------------------------------------------------------------------]
+# [------------------------------------------------------------------]
 
 # # Q-29
 # def calculate_result(marks, passing_marks=35):
@@ -402,7 +293,7 @@
 # print(calculate_result(30))
 # print(calculate_result(45, passing_marks=50))
 
-# # [------------------------------------------------------------------]
+# [------------------------------------------------------------------]
 
 # # Q-30
 # def order_summary(item, quantity=1, price=100, delivery_fee=40):
@@ -411,6 +302,3 @@
 # print(order_summary("Book", delivery_fee=60))
 # print(order_summary("Pen"))
 
-
-
-     
