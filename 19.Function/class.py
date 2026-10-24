@@ -126,7 +126,7 @@
 # def hi(count):
 #     count+=1
 #     if count==5:
-#         return count
+#         return count 
 #     else:
 #         return hi(count)
 
@@ -134,4 +134,93 @@
 # print(hi(1)) 
 
 # [------------------------------------------------------------]
+
+# def couner_fun(count):
+#     count+=1
+#     if count==20:
+#         return count
+#     else:
+#         return couner_fun(count)
+
+# print(couner_fun(1))
+
+# [------------------------------------------------------------]
+
+
+# def info (name,a):
+#     # print(name,a)
+#     return name,a
+# print(info("aa",89))
+
+# [------------------------------------------------------------]
+
+
+# def info(a,b,c,*args):
+#     print(a,b,c)
+#     print(args)
+
+# info(1,2,3,4,5,6,7,8,9,0)
+
+# [------------------------------------------------------------]
+
+# def d(a=0,b=12,/,*,c,d):
+#     return c+d,a+b
+# print(d(c=12,d=12))
+
+# [------------------------------------------------------------]
+
+# def a(*args,**Kwargs):
+#     print(Kwargs,args)
+#     print(x,z)
+#     print(type(Kwargs))
+#     print(type(args))
+
+# # a(1,2,3,4,5,6,7,8)
+# a(4,5,6,7,8,9,0,q=1,w=2,e=3,x=22,z=44)
+
+# [------------------------------------------------------------]
+
+# word="call of"
+
+# word=word.split()
+# print(word)
+
+# for i in word:
+#     if i == "duty":
+#         print("FOUND")
+    
+# [------------------------------------------------------------]
+
+# sky=97
+
+# word=input("Enter word:- ").lower()
+# wor=0
+
+# while sky<=122:
+#     for i in word:
+#         if i==chr(97):
+#             wor+=1
+#             print(chr(97),wor)
+#             sky+=1
+
+# print(chr(97))
+
+# [------------------------------------------------------------]
+
+# a=0
+# b=1
+
+# for i in range(8):
+#     c=a+b
+#     print(c)
+#     a=b
+#     b=c
+    
+# [------------------------------------------------------------]
+
+def add(a, b, c):
+    return a + b + c
+
+numbers = 10, 20, 30
+print(add(*numbers)) 
 

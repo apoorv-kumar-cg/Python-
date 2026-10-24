@@ -179,6 +179,7 @@
 
 # [------------------------------------------------------------------]
 # q-20
+
 # def bill(item, quantity=1, price=100):
 #     return quantity * price
 
@@ -202,7 +203,8 @@
 
 # # [------------------------------------------------------------------]
 
-# # Q-22
+# Q-22
+
 # def calculate_stats(a, b, c):
 #     smallest = min(a, b, c)
 #     largest = max(a, b, c)
@@ -213,7 +215,8 @@
 
 # # [------------------------------------------------------------------]
 
-# # Q-23
+# Q-23
+
 # def make_sentence(subject, verb, object):
 #     return f"{subject} {verb} {object}."
 
@@ -221,7 +224,8 @@
 
 # # [------------------------------------------------------------------]
 
-# # Q-24
+# Q-24
+
 # def apply_discount(price, discount=0):
 #     return price - (price * discount / 100)
 
@@ -230,7 +234,8 @@
 
 # [------------------------------------------------------------------]
 
-# # Q-25
+# Q-25
+
 # def calculate_pay(hours, rate=200, bonus=0):
 #     return hours * rate + bonus
 
@@ -241,7 +246,8 @@
 
 # [------------------------------------------------------------------]
 
-# # Q-26
+# Q-26
+
 # def get_coordinates(x=0, y=0):
 #     return x, y
 
@@ -273,19 +279,20 @@
 
 # Q-28
 
-def convert_temperature(value, scale="C"):
-    if scale == "C":
-        return (value * 9 / 5) + 32
-    elif scale == "F":
-        return (value - 32) * 5 / 9
+# def convert_temperature(value, scale="C"):
+#     if scale == "C":
+#         return (value * 9 / 5) + 32
+#     elif scale == "F":
+#         return (value - 32) * 5 / 9
 
-print(convert_temperature(0, "C"))
-print(convert_temperature(212, "F"))
-print(convert_temperature(100))
+# print(convert_temperature(0, "C"))
+# print(convert_temperature(212, "F"))
+# print(convert_temperature(100))
 
 # [------------------------------------------------------------------]
 
-# # Q-29
+# Q-29
+
 # def calculate_result(marks, passing_marks=35):
 #     return "Pass" if marks >= passing_marks else "Fail"
 
@@ -295,10 +302,11 @@ print(convert_temperature(100))
 
 # [------------------------------------------------------------------]
 
-# # Q-30
-# def order_summary(item, quantity=1, price=100, delivery_fee=40):
-#     return (quantity * price) + delivery_fee
+# Q-30
 
-# print(order_summary("Book", delivery_fee=60))
-# print(order_summary("Pen"))
+def order_summary(item, quantity=1, price=100, delivery_fee=40):
+    return item,(quantity * price) + delivery_fee
+
+print(order_summary("Bat", delivery_fee=60))
+print(order_summary("Pen"))
 
