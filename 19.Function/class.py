@@ -213,14 +213,99 @@
 # for i in range(8):
 #     c=a+b
 #     print(c)
-#     a=b
+#     a=b`
 #     b=c
     
 # [------------------------------------------------------------]
 
-def add(a, b, c):
-    return a + b + c
+# def add(a, b, c):
+#     return a + b + c
 
-numbers = 10, 20, 30
-print(add(*numbers)) 
+# numbers = 10, 20, 30
+# print(add(*numbers)) 
+
+# [------------------------------------------------------------] 
+
+# def area(l,b):
+#     # """
+#     # *This is area of rectangle.
+#     # *Area=length*breadth
+#     # """
+#     return l*b
+
+# print(area.__doc__)
+# print(area(12,13))
+
+# [------------------------------------------------------------] 
+
+# total=100
+# def scope():
+#     # total=10
+#     print(total)
+#     total=10
+# scope()
+# print(total)
+
+# [------------------------------------------------------------] 
+
+# x = 10
+
+# def demo():
+#     # global x
+#     x+=1
+#     print(x)
+#     x = 20
+
+# demo()  
+
+# [------------------------------------------------------------] 
+
+# def sum(a,b):
+#     return a-b
+# print(sum(b=10,a=3))
+
+# [------------------------------------------------------------]
+# items = []
+
+# def reset_items():
+#     global items
+#     items = []
+
+# reset_items()
+
+# [------------------------------------------------------------]
+
+# word=input("Enter word:-").strip().lower()
+
+
+# length=len(word)
+
+
+# a=1
+# output=""
+# for i in range (1,length):
+#     if word[i]==word[i-1]:
+#         a+=1
+#     else:
+#         output+=word[i-1]+"="+str(a)
+#         a=1
+# output+=word[length-1]+"="+str(a)
+# print(output)
+        
+# [------------------------------------------------------------]
+
+word = input("Enter word:- ").strip().lower()
+                                                             
+if word:
+    a = 1
+    for i in range(1, len(word)):
+        if word[i] == word[i - 1]:
+            a += 1
+        else:
+            print(f"{word[i - 1]}={a}  ")
+            a = 1
+
+    print(f"{word[-1]}={a}")
+    
+# [------------------------------------------------------------]
 
